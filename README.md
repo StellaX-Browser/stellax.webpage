@@ -28,6 +28,11 @@ Zsofia Komaromi: [X](https://x.com/zsofiakomaromi), [LinkedIn](https://www.linke
 - Submit a [feature request](https://github.com/once-ui-system/nextjs-starter/issues/new?labels=feature%20request&template=feature_request.md).
 <br><br>
 
+# **Contributing**
+
+Contributions are welcome! If you would like to contribute to this project, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+
 # **License**
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
