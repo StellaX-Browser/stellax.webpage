@@ -1,53 +1,29 @@
-# **Once UI for Next.js**
+# Stellax Webpage
 
-<span style="font-size: 22px;">Once UI is a lightweight, versatile design system intended to cover 80% of the needs of all applications.
-<br>
+Welcome to Stellax Webpage, a powerful and intelligent web browser designed to enhance your browsing experience.
 
-![Once UI](public/images/cover.png)
+<!--# Documentation
+For detailed information on how to use Stellax AI Browser, please refer to our [official documentation](https://stellax.tech/docs).
+-->
+# Community Guidelines
+We value a positive and inclusive community. Please review our [Community Guidelines](https://github.com/StellaX-Browser/stellax.webpage/blob/main/COMMUNITY_GUIDLINES.md) to ensure a respectful and collaborative environment for all users.
 
-<span style="font-size: 18px;">Start building your Next.js app in minutes with:</span> 
-* **A robust token and style system** that simplifies customization and ensures consistency. 
-* **A copy-and-paste component library** that integrates seamlessly into your project.
-* **Interactive documentation** to apply your branding and set component properties.
-<br><br>
+# Code of Conduct
+To maintain a safe and welcoming community, we enforce a [Code of Conduct](https://github.com/StellaX-Browser/stellax.webpage/blob/main/CODE_OF_CONDUCT.md). Please familiarize yourself with these guidelines before participating in any discussions or interactions.
 
-# **Documentation**
-The documentation is available at [once-ui.com/docs](https://once-ui.com/docs).
-<br><br>
+# Contributing
+We welcome contributions from the community! If you would like to contribute to Stellax AI Browser, please read our [Contributing Guidelines](https://github.com/StellaX-Browser/stellax.webpage/blob/main/CONTRIBUTING.md) for instructions on how to get started.
 
-# **Authors**
-Connect with us on X or LinkedIn.
+# Open Source Projects
+Stellax Webpage is built on the following open source projects:
+- [Once UI](https://once-ui.com): A versatile design system that simplifies customization and ensures consistency.
+- [Next.js](https://nextjs.org): A powerful React framework for building web applications.
 
-Lorant Toth: [X](https://x.com/lorant_one), [LinkedIn](https://www.linkedin.com/in/lorant-one/)  
-Zsofia Komaromi: [X](https://x.com/zsofiakomaromi), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
-<br><br>
+# License
+Stellax Webpage is distributed under the GPL - 3.0 Licence. See `LICENSE.txt` for more information.
 
-# **Get involved**
-- Join the [Once UI Discord server](https://discord.com/invite/5EyAQ4eNdS) to connect with designers, developers and share your projects.
-- Report a [bug](https://github.com/once-ui-system/nextjs-starter/issues/new?labels=bug&template=bug_report.md).
-- Submit a [feature request](https://github.com/once-ui-system/nextjs-starter/issues/new?labels=feature%20request&template=feature_request.md).
-<br><br>
+# Get Involved
+- Join our community on [Discord](https://discord.com/invite/stellax) to connect with other users and share your experiences.
+- Report any bugs or issues on our [GitHub repository](https://github.com/StellaX-Browser/stellax.webpage/issues/new?assignees=&labels=&projects=&template=bug_report.md).
+- Submit feature requests or suggestions on our [GitHub repository](https://github.com/StellaX-Browser/stellax.webpage/issues/new?assignees=&labels=&projects=&template=feature_request.md).
 
-# **Contributing**
-
-Contributions are welcome! If you would like to contribute to this project, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-
-# **License**
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-<br><br>
-
-# **Once UI for Figma**
-
-Once UI is also available for Figma.  
-Design and prototype entire products from scratch in hours. Use the same tokens and components as the Next.js design system.
-
-Grab a copy from the [Figma Community](https://figma.com/).
-<br><br>
-
-# **Deploy your project**
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/76DR9Q?referralCode=QW2HBC)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fnextjs-starter&redirect-url=https%3A%2F%2Fonce-ui.com%2Fdocs%2F)
