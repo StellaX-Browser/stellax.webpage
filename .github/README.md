@@ -43,10 +43,10 @@ This project is built using the **Next.js** framework, with a focus on performan
 
 ### Installation
 
-First, clone the repository and install dependencies:
+First, fork the repository and install dependencies:
 
 ```bash
-git clone https://github.com/StellaXTechnologies/stellax.webpage.git
+git clone https://github.com/your-username/stellax.webpage
 cd stellax.webpage
 npm install
 ```
