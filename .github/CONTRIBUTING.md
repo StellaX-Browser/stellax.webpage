@@ -35,11 +35,12 @@ If you encounter any issues or have suggestions for improvements, please follow 
 1. Open our [issue tracker](https://github.com/StellaX-Browser/stellax.webpage/issues).
 2. Click on the "New Issue" button.
 3. Select the appropriate issue template:
-	- For reporting a bug, use the "Bug Report" template (`bug_report.md`).
-	- For requesting a new feature, use the "Feature Request" template (`feature_request.md`).
+   - For reporting a bug, use the "Bug Report" template (`bug_report.md`).
+   - For requesting a new feature, use the "Feature Request" template (`feature_request.md`).
 4. Provide as much detail as possible to help us understand and reproduce the problem or describe your feature request.
 
 ## Branching Strategy
+
 - `main`: Production-ready branch.
 - `dev`: Active development branch.
 - Feature branches should be named as `feature/<description>` and merged into `dev` via a pull request.
