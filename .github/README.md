@@ -82,9 +82,11 @@ We welcome contributions from interns and external contributors. Follow the step
 
 ### Creating a Feature Branch
 
-1. Checkout the `dev` branch:
+1. Fetch and Sync with the latest `dev` branch:
     ``` bash
+    git fetch upstream
     git checkout dev
+    git merge upstream/dev
     ```
 2. Pull the latest changes:
     ```bash
