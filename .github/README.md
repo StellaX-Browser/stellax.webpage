@@ -84,10 +84,12 @@ We welcome contributions from interns and external contributors. Follow the step
 
 ### Creating a Feature Branch
 
-1. Checkout the `dev` branch:
-   ```bash
-   git checkout dev
-   ```
+1. Fetch and Sync with the latest `dev` branch:
+    ``` bash
+    git fetch upstream
+    git checkout dev
+    git merge upstream/dev
+    ```
 2. Pull the latest changes:
    ```bash
    git pull origin dev
@@ -103,11 +105,9 @@ After implementing your feature or fix, follow these steps:
 
 1. Ensure your code is linted and properly formatted.
 2. Push your feature branch:
-
-   ```bash
-   git push origin feature/<description>
-
-   ```
+    ```bash
+    git push --set-upstream origin feature/<description>
+    ```
 
 3. Open a pull request from your branch to `dev` on GitHub.
 4. Add appropriate reviewers, follow the PR template, and describe your changes clearly.
