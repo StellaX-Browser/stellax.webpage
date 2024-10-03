@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "node --version",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "next": "14.2.14",
