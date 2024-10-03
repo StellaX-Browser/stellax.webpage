@@ -43,6 +43,6 @@ Thank you for your contribution!
 - Be respectful and considerate towards others.
 - Avoid offensive or inappropriate language and behavior.
 - Help others by providing constructive feedback and support.
-<!-- - Follow the [code of conduct](https://github.com/StellaX-Browser/ideal-waffle/blob/main/CODE_OF_CONDUCT.md). -->
+- Follow the [code of conduct](https://github.com/StellaX-Browser/ideal-waffle/blob/main/.github/CODE_OF_CONDUCT.md).
 
 We appreciate your contributions and look forward to working with you!
