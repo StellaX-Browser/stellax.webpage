@@ -100,7 +100,7 @@ After implementing your feature or fix, follow these steps:
 1. Ensure your code is linted and properly formatted.
 2. Push your feature branch:
     ```bash
-    git push origin feature/<description>
+    git push --set-upstream origin feature/<description>
 
     ```
 3. Open a pull request from your branch to `dev` on GitHub.
