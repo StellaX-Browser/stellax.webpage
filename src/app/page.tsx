@@ -8,7 +8,7 @@ export default function Home() {
           Hello!!
         </div>
         <div>
-          We are coming soon!
+          StellaX Code assistance extension pack will be released soon
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
