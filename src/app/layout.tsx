@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Footer from "../components/footer"; // Import Footer component
 import "./globals.css";
 
 const geistSans = localFont({
@@ -25,10 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
+        <Footer /> {/* Call the Footer component */}
       </body>
     </html>
   );
