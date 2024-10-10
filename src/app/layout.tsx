@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Footer from "../components/footer"; // Import Footer component
 import "./globals.css";
 import '../components/navbar.module.css';
 import Navbar from '../components/Navbar'; 
@@ -33,7 +34,8 @@ export default function RootLayout({
           <Navbar />
         <main style={{ paddingTop: '4rem' }}> 
           {children}
-        </main>
+        </main> 
+          <Footer />
       </body>
     </html>
   );
