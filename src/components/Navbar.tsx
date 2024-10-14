@@ -1,6 +1,21 @@
 'use client';
 import React, { useState } from 'react';
 import styles from './navbar.module.css';
+import { Toggle } from "@/components/ui/toggle";
+import GitHubButton from 'react-github-btn';
+
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu"
+
+
 
 const Navbar: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -13,37 +28,51 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className={`${styles.navbar} ${isDarkMode ? styles.dark : styles.light}`}>
-      <div className={styles['navbar-container']}>
-        <div className={styles['logo-version-container']}>
-          <div className={styles.logo}>
-            <img 
-              src={isDarkMode ? '/images/logo-dark.png' : '/images/logo-light.png'} 
-              alt="Logo" 
-            />
+    <NavigationMenu className={`${styles.navbar} ${isDarkMode ? styles.dark : styles.light}`}>
+      <NavigationMenuList className={styles['navbar-container']}>
+        <NavigationMenuItem>
+          <div className={styles['logo-version-container']}>
+            <div className={styles.logo}>
+              <img 
+                src={isDarkMode ? '/images/logo-dark.png' : '/images/logo-light.png'} 
+                alt="Logo" 
+              />
+            </div>
+            <button className={styles['version-btn']}>Version 1.0.1</button>
           </div>
-          <button className={styles['version-btn']}>Version 1.0.1</button>
-        </div>
+        </NavigationMenuItem>
 
-        <ul className={styles['nav-items']}>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Documentation</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Pricing</a></li>
-        </ul>
+        <NavigationMenuItem>
+          <ul className={styles['nav-items']}>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </NavigationMenuItem>
 
-        <div className={styles['theme-social-container']}>
-          <button id="themeToggle" className={styles['theme-btn']} onClick={toggleTheme}>
-            {isDarkMode ? <span className="moon">&#9789;</span> : <span className="sun">&#9728;</span>}
-          </button>
+        <NavigationMenuItem>
+          <div className={styles['theme-social-container']}>
+            <Toggle id="themeToggle" className={styles['theme-btn']} onClick={toggleTheme}>
+                {isDarkMode ? <span className="moon">&#9789;</span> : <span className="sun">&#9728;</span>}
+            </Toggle>
 
-          <div className={styles['social-icons']}>
-            <a href="#"><img src="/images/github-icon.png" alt="GitHub" /></a>
-            <a href="#"><img src="/images/discord-icon.png" alt="Discord" /></a>
+            <GitHubButton 
+              href="https://github.com/StellaX-Browser/stellax.webpage" 
+              data-color-scheme="no-preference: dark; light: light; dark: dark;" 
+              data-size="large" 
+              data-show-count="true" 
+              aria-label="Star StellaX-Browser/stellax.webpage on GitHub"
+            >
+              Star
+            </GitHubButton>
+
+            <div className={styles['social-icons']}>
+              <a href="#"><img src="/images/discord-icon.png" alt="Discord" /></a>
+            </div>
           </div>
-        </div>
-      </div>
-    </nav>
+        </NavigationMenuItem>
+      </NavigationMenuList>
+    </NavigationMenu>
   );
 };
 

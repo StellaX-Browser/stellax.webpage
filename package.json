@@ -11,9 +11,17 @@
     "deploy": "node --version"
   },
   "dependencies": {
+    "@radix-ui/react-navigation-menu": "^1.2.1",
+    "@radix-ui/react-toggle": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.452.0",
     "next": "14.2.14",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-github-btn": "^1.4.0",
+    "tailwind-merge": "^2.5.3",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^18",
