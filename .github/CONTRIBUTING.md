@@ -1,57 +1,22 @@
-# Contributing to StellaX Landing Page.
+Thank you so much for considering contributing to this landing page. 🙏
 
-Thank you for considering contributing to StellaX! Here are a few guidelines to follow to ensure a smooth contribution process.
+## Considerations before Contributing
+Check if there is a GitHub issue already for the thing you would like to work on. If there is no issue yet, create a new one.
 
-## Getting Started
+Let us know, in the issue, that you would like to work on it and how you plan to approach it.
+This helps, especially with the more complex issues, as it allows us to discuss the solution upfront and make sure it is well planned and fits with the rest of the project.
 
-1. **Fork** the repository and create your branch from `dev`.
-2. Ensure your code follows the project’s coding style.
-3. Install the required dependencies by running `npm install`.
-4. Start the development server by running `npm run dev`.
-5. If you've added code that should be tested, add tests.
-6. Submit a pull request and link it to the corresponding issue.
+## Repo organization
 
-## Code Style & Code Standards
+Repo has two important branches: [main](https://github.com/StellaX-Browser/stellax.webpage) branch and [dev](https://github.com/StellaX-Browser/stellax.webpage/tree/dev) branch.
 
-- Ensure that your code is properly formatted and indented.
-- Use meaningful variable and function names.
-- Write clear and concise comments to explain your code.
-- Use consistent formatting and linting rules as defined in the `.eslintrc` file.
-- Always run `npm run lint` before committing to ensure there are no syntax issues.
+`main branch` contains the actual codebase that is live and published.
 
-## Submitting Changes
+`dev branch` is the development branch that all the contributors and developers who are working on the website codebase should worry about.
 
-1. Create a new branch with a descriptive name for your changes.
-2. Make your changes and ensure that the code follows our coding standards.
-3. Test your changes locally to ensure they work as expected.
-4. Commit your changes with a clear and concise commit message.
-5. Push your branch to your forked repository.
-6. Open a pull request to the main repository, explaining the purpose and details of your changes.
-
-## Reporting Issues
-
-If you encounter any issues or have suggestions for improvements, please follow these steps:
-
-1. Open our [issue tracker](https://github.com/StellaX-Browser/stellax.webpage/issues).
-2. Click on the "New Issue" button.
-3. Select the appropriate issue template:
-   - For reporting a bug, use the "Bug Report" template (`bug_report.md`).
-   - For requesting a new feature, use the "Feature Request" template (`feature_request.md`).
-4. Provide as much detail as possible to help us understand and reproduce the problem or describe your feature request.
-
-## Branching Strategy
-
-- `main`: Production-ready branch.
-- `dev`: Active development branch.
-- Feature branches should be named as `feature/<description>` and merged into `dev` via a pull request.
-
-## Community Guidelines
-
-- Be respectful and considerate towards others.
-- Avoid offensive or inappropriate language and behavior.
-- Help others by providing constructive feedback and support.
-<!-- - Follow the [code of conduct](https://github.com/StellaX-Browser/ideal-waffle/blob/main/CODE_OF_CONDUCT.md). -->
-
-We appreciate your contributions and look forward to working with you!
-
-Thank you for your contribution!
+## How to Contribute
+1. Make sure you understand the tech stack being used in building this landing page.
+2. Check out this repo (`dev` branch).
+3. Create a new git branch from `dev branch` for your work (aka feature branch) and do your changes on it.
+4. Create a pull request (towards `dev` as a base branch).
+5. Make a "Da Boi" meme while you wait for us to review your PR(s).
